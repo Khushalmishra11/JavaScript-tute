@@ -12,7 +12,9 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "yarn install",
+	 // Use 'postCreateCommand' to run commands after the container is created.
+	 "postCreateCommand": "npm install",
+
 
 	// Configure tool-specific properties.
 	"customizations": {
@@ -20,7 +22,8 @@
 			"extensions": [
 				"esbenp.prettier-vscode",
 				"vscode-icons-team.vscode-icons",
-				"wayou.vscode-todo-highlight"
+				"wayou.vscode-todo-highlight",
+				"xabikos.JavaScriptSnippets"
 			],
 			"settings": {
 				"editor.fontSize": 32,
