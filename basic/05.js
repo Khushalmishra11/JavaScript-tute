@@ -135,8 +135,10 @@ const course = {
 
 const {courseInstructor: instructor} = course
 
-console.log(instructor);
+// console.log(instructor);
 
-const navbar = () => {
-\
+{
+    name: "khushal",
+    coursename: "js in hindi",
+    price: "FREE",
 }
